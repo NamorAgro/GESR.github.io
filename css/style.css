@@ -1,12 +1,10 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/npd1vja.css");
 @font-face {
-  font-family: 'Times Sans Serif';
-  src: url("fonts/TimesSansSerif.eot");
-  src: url("fonts/TimesSansSerif.eot?#iefix") format("embedded-opentype"), url("fonts/TimesSansSerif.woff2") format("woff2"), url("fonts/TimesSansSerif.woff") format("woff"), url("fonts/TimesSansSerif.ttf") format("truetype"), url("fonts/TimesSansSerif.svg#TimesSansSerif") format("svg");
+  font-family: 'TIMESS';
+  src: url("../fonts/TIMESS_.woff") format("woff"), url("../fonts/TIMESS_.woff2") format("woff2"), url("../fonts/TIMESS_.eot"), url("../fonts/TIMESS_.eot?#iefix") format("embedded-opentype"), url("../fonts/") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /*Обнуление*/
@@ -333,7 +331,7 @@ a .instagram {
 }
 
 .button:hover a {
-  padding-top: 15px;
+  padding-top: 13px;
   color: white;
 }
 
@@ -463,6 +461,10 @@ a .instagram {
 }
 
 @media (max-width: 375px) {
+  .wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .header {
     font-size: 13px;
   }
@@ -485,7 +487,7 @@ a .instagram {
     height: 40px;
   }
   .button a {
-    padding-top: 10px;
+    padding-top: 8px;
     font-size: 16px;
   }
 }
@@ -542,7 +544,7 @@ a .instagram {
 .list-header {
   text-align: center;
   font-size: 30px;
-  font-family: 'Times Sans Serif';
+  font-family: 'TIMESS';
   text-transform: uppercase;
   padding-bottom: 40px;
   color: #CE8599;
@@ -556,7 +558,7 @@ a .instagram {
 }
 
 .list-point {
-  font-family: 'Times Sans Serif';
+  font-family: 'TIMESS';
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
@@ -721,7 +723,6 @@ span {
     font-size: 25px;
   }
   .list-point {
-    font-family: 'Times Sans Serif';
     text-transform: uppercase;
     font-size: 15px;
   }
