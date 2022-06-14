@@ -305,8 +305,8 @@ a .instagram {
 .button {
   display: inline-block;
   background-color: white;
-  width: 286px;
-  height: 69px;
+  width: 200px;
+  height: 50px;
   border-radius: 88px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -315,7 +315,7 @@ a .instagram {
 }
 
 .button a {
-  padding-top: 23px;
+  padding-top: 15px;
   display: block;
   font-size: 20px;
   font-weight: 500;
@@ -333,7 +333,7 @@ a .instagram {
 }
 
 .button:hover a {
-  padding-top: 23px;
+  padding-top: 15px;
   color: white;
 }
 
@@ -459,7 +459,7 @@ a .instagram {
     margin-bottom: 1%;
   }
   .contacts-text {
-    margin-bottom: 17%;
+    margin-bottom: 10%;
   }
   .contacts-links {
     text-align: center;
@@ -470,9 +470,6 @@ a .instagram {
   .adress {
     margin: 15% 0;
   }
-  .instagram {
-    margin-left: 47px;
-  }
 }
 
 @media (max-width: 375px) {
@@ -480,7 +477,7 @@ a .instagram {
     font-size: 16px;
   }
   .content {
-    margin: 15% 0;
+    margin: 20% 0;
   }
   .line {
     margin: 10% 0;
